@@ -11,10 +11,7 @@
     "url": "http://103.202.216.55/spajam-doujo-2018/spajam-server.git"
   },
   "dependencies": {
-    "ejs": "*",
-    "express": "*",
     "jquery": "*",
-    "nodemon": "*",
     "request": "*",
     "cheerio": "*",
     "addressable": "*",

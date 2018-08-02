@@ -11,10 +11,11 @@ var server = http.createServer(app).listen(port, function () {
   console.log('Server listening at port %d', port);
 });
 
-var search = require(__dirname + '/../search.js');
+var GoogleSearch = require(__dirname + '/../google_search.js');
+var google_search = new GoogleSearch();
 
 app.get('/', function(req, res){
-  search.crwalImages('かえる', function(results){
+  google_search.searchImages('かえる').then(function(results){
     console.log(results);
   });
   res.sendFile(__dirname + '/index.html');
