@@ -1,0 +1,25 @@
+{
+  "name": "spajam-doujyo-2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://103.202.216.55/spajam-doujo-2018/spajam-server.git"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "*",
+    "jquery": "*",
+    "nodemon": "*",
+    "request": "*",
+    "cheerio": "*",
+    "addressable": "*",
+    "uuid": "*"
+  },
+  "author": "",
+  "license": "MIT"
+}
